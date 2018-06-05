@@ -6,4 +6,4 @@ def home(request):
     numbers = [1,2,3,4,5]
     args = {'myName':name, 'myNumbers':numbers}
 
-    return render(request, 'accounts/login.html',args)
+    return render(request, 'accounts/home.html',args)
